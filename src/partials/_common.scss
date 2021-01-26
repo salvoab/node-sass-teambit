@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: $primary_color;
+}
+
+/* Typo */
+a{
+    text-decoration: none;
+    color: $primary_color;
+}
+
+/* Buttons */
+@mixin button {
+    border: 1px solid $btn_color;
+    border-radius: 6px;
+}
+
+.btn{
+    @include button;
+    color: $btn_color;
+    padding: 10px;
+    padding-left: 30px;
+    position: relative;
+
+    img{
+        position: absolute;
+        width: 20px;
+        left: 5px;
+    }
+}

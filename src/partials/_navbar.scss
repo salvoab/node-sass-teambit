@@ -1,0 +1,36 @@
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid $primary_color;
+
+    .navbar-right{
+        margin-left: auto;
+    
+        ul{
+            list-style: none;
+            li{
+                display: inline;
+                padding: 5px 10px;
+            }
+        }
+        .hamburger-box{
+            display: none;
+        }
+    }
+}
+
+
+@media screen and (max-width: 998px){
+    nav{
+        .navbar-right{
+            ul{
+                display: none;
+            }
+
+            .hamburger-box{
+                display: block;
+            }
+        }
+    }
+}
