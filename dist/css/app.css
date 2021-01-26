@@ -17,14 +17,29 @@ a {
 
 /* Buttons */
 .btn {
-  border: 1px solid #2c4792;
-  border-radius: 6px;
-  color: #2c4792;
   padding: 10px;
   padding-left: 30px;
+  border-radius: 6px;
   position: relative;
+  border: 1px solid #2c4792;
+  color: #2c4792;
 }
 .btn img {
+  position: absolute;
+  width: 20px;
+  left: 5px;
+}
+
+.btn-blue {
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 6px;
+  position: relative;
+  background-color: #2c4792;
+  border: 1px solid #58402c;
+  color: white;
+}
+.btn-blue img {
   position: absolute;
   width: 20px;
   left: 5px;
@@ -632,4 +647,18 @@ nav .navbar-right .hamburger-box {
   nav .navbar-right .hamburger-box {
     display: block;
   }
+}
+.header-text h1 {
+  margin: 14px 0;
+}
+.header-text .buttons-wrapper {
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+.header-text .buttons-wrapper span {
+  margin: 0 8px;
+}
+
+.header-image img {
+  width: 100%;
 }
