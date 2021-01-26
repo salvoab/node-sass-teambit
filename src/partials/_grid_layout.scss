@@ -23,18 +23,8 @@
   }
 }
 
-/* Reset md offsets*/
-@for $i from 1 through 11 {
-  .col-offset-md-#{$i} { 
-    margin-left: 0;
-  }
-}
-
-/* Reset sm offsets*/
-@for $i from 1 through 11 {
-  .col-offset-sm-#{$i} { 
-    margin-left: 0;
-  }
+.col-offset-lg-0{
+  margin-left: 0;
 }
 
 /* Media Query md */
@@ -54,18 +44,8 @@
     }
   }
 
-  /* Reset lg offsets*/
-  @for $i from 1 through 11 {
-    .col-offset-lg-#{$i} { 
-      margin-left: 0;
-    }
-  }
-
-  /* Reset sm offsets*/
-  @for $i from 1 through 11 {
-    .col-offset-sm-#{$i} { 
-      margin-left: 0;
-    }
+  .col-offset-md-0{
+    margin-left: 0;
   }
 
 }
@@ -88,18 +68,8 @@
     }
   }
   
-  /* Reset lg offsets*/
-  @for $i from 1 through 11 {
-    .col-offset-lg-#{$i} { 
-      margin-left: 0;
-    }
-  }
-
-  /* Reset md offsets*/
-  @for $i from 1 through 11 {
-    .col-offset-md-#{$i} { 
-      margin-left: 0;
-    }
+  .col-offset-sm-0{
+    margin-left: 0;
   }
 
 }
