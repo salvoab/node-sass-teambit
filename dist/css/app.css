@@ -397,6 +397,16 @@ nav .navbar-right .hamburger-box {
   display: none;
 }
 
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background: white;
+  margin-top: 0;
+  z-index: 1;
+}
+
 @media screen and (max-width: 998px) {
   nav .navbar-right ul {
     display: none;

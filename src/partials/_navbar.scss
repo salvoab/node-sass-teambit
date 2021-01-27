@@ -20,6 +20,16 @@ nav{
     }
 }
 
+.fixed-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: white;
+    margin-top: 0;
+    z-index: 1;
+}
+
 
 @media screen and (max-width: 998px){
     nav{

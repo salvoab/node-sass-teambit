@@ -7,7 +7,19 @@
   \********************/
 /***/ (() => {
 
-console.log("test");
+var navbar = document.querySelector('nav');
+var navClasses = navbar.classList;
+window.addEventListener('scroll', function () {
+  var currentScroll = window.scrollY;
+  var isInShowPosition = currentScroll > 1000;
+  var isInHidePosition = currentScroll < 500;
+
+  if (isInShowPosition && !navClasses.contains('fixed-top')) {
+    navClasses.add('fixed-top');
+  } else if (!isInShowPosition && isInHidePosition) {
+    navClasses.remove('fixed-top');
+  }
+});
 
 /***/ }),
 
