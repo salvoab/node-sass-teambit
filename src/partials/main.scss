@@ -29,7 +29,7 @@
     }
 }
 
-.feedback, .survey{
+.feedback, .survey, .review, .praise{
     img{
         width: 100%;
     }
@@ -46,10 +46,13 @@
 }
 
 @media screen and (max-width: 998px){
-    .feedback, .survey{
+    .feedback, .survey, .review, .praise{
         h2, p, a{
             text-align: center;
             padding: 0 50px;
+        }
+        h2{
+            margin-top: 2rem;
         }
     }
 }
