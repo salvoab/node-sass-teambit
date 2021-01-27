@@ -16,4 +16,33 @@ footer{
         }
     }
 
+    .footer-column{
+        h3{
+            padding-bottom: 1.2rem;
+        }
+
+        p{
+            font-weight: 500;
+        }
+
+        ul{
+            list-style: none;
+
+            li{
+                padding: 8px 0;
+                font-weight: 500;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 998px){
+    footer{
+        .footer-column{
+            h3{
+                padding-top: 1.8rem;
+            }
+        }
+    }
 }
