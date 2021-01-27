@@ -1,3 +1,4 @@
+/* Problems and solutions sections */
 .problems, .solutions{
     background-color: $bg_color;
     
@@ -29,6 +30,7 @@
     }
 }
 
+/* Feedback survey review and praise sections */
 .feedback, .survey, .review, .praise{
     img{
         width: 100%;
@@ -45,6 +47,51 @@
     }
 }
 
+/*Get-started section*/
+.get-started{
+    background-color: $bg_color;
+    .title{
+        padding: 3rem 0;
+        text-align: center;
+        h1{
+            display: inline;
+        }
+    }
+
+    .mission{
+        padding: 1.5rem;
+        background-color: white;
+        border: 1px solid $btn_color;
+        border-radius: 10px;
+        position: relative;
+
+        i{
+            position: absolute;
+            top: -20px;
+            left: -2px;
+            color: $btn_color;
+        }
+
+        .founders{
+            width: 68%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h4{
+                color: $btn_color;
+            }
+        }
+    }
+
+    .sign-in-wrapper{
+        margin: 2rem 0;
+        text-align: center;
+        
+    }
+}
+
+
 @media screen and (max-width: 998px){
     .feedback, .survey, .review, .praise{
         h2, p, a{
@@ -53,6 +100,14 @@
         }
         h2{
             margin-top: 2rem;
+        }
+    }
+
+    .get-started{
+        .mission{
+            .founders{
+                width: 95%;
+            }
         }
     }
 }

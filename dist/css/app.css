@@ -367,6 +367,10 @@ h1, h2, p {
   padding: 1rem 0;
 }
 
+.py-3 {
+  padding: 3rem 0;
+}
+
 .big-paragraph {
   font-size: 1.2rem;
   font-weight: 500;
@@ -416,6 +420,7 @@ nav .navbar-right .hamburger-box {
   width: 100%;
 }
 
+/* Problems and solutions sections */
 .problems, .solutions {
   background-color: #ffe7d2;
 }
@@ -441,6 +446,7 @@ nav .navbar-right .hamburger-box {
   border-bottom: 2px solid #58402c;
 }
 
+/* Feedback survey review and praise sections */
 .feedback img, .survey img, .review img, .praise img {
   width: 100%;
 }
@@ -454,6 +460,44 @@ nav .navbar-right .hamburger-box {
   color: #2c4792;
 }
 
+/*Get-started section*/
+.get-started {
+  background-color: #ffe7d2;
+}
+.get-started .title {
+  padding: 3rem 0;
+  text-align: center;
+}
+.get-started .title h1 {
+  display: inline;
+}
+.get-started .mission {
+  padding: 1.5rem;
+  background-color: white;
+  border: 1px solid #2c4792;
+  border-radius: 10px;
+  position: relative;
+}
+.get-started .mission i {
+  position: absolute;
+  top: -20px;
+  left: -2px;
+  color: #2c4792;
+}
+.get-started .mission .founders {
+  width: 68%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.get-started .mission .founders h4 {
+  color: #2c4792;
+}
+.get-started .sign-in-wrapper {
+  margin: 2rem 0;
+  text-align: center;
+}
+
 @media screen and (max-width: 998px) {
   .feedback h2, .feedback p, .feedback a, .survey h2, .survey p, .survey a, .review h2, .review p, .review a, .praise h2, .praise p, .praise a {
     text-align: center;
@@ -461,5 +505,9 @@ nav .navbar-right .hamburger-box {
   }
   .feedback h2, .survey h2, .review h2, .praise h2 {
     margin-top: 2rem;
+  }
+
+  .get-started .mission .founders {
+    width: 95%;
   }
 }
