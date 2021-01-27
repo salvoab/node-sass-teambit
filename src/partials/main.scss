@@ -29,7 +29,7 @@
     }
 }
 
-.feedback{
+.feedback, .survey{
     img{
         width: 100%;
     }
@@ -38,7 +38,7 @@
     }
 
     p{
-        margin-top: 9rem;
+        margin-top: 2rem;
     }
     a{
         color: $btn_color;
@@ -46,13 +46,10 @@
 }
 
 @media screen and (max-width: 998px){
-    .feedback{
+    .feedback, .survey{
         h2, p, a{
             text-align: center;
             padding: 0 50px;
-        }
-        p{
-            margin-top: 2rem;
         }
     }
 }

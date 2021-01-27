@@ -441,25 +441,22 @@ nav .navbar-right .hamburger-box {
   border-bottom: 2px solid #58402c;
 }
 
-.feedback img {
+.feedback img, .survey img {
   width: 100%;
 }
-.feedback img, .feedback h2 {
+.feedback img, .feedback h2, .survey img, .survey h2 {
   padding-top: 40px;
 }
-.feedback p {
-  margin-top: 9rem;
+.feedback p, .survey p {
+  margin-top: 2rem;
 }
-.feedback a {
+.feedback a, .survey a {
   color: #2c4792;
 }
 
 @media screen and (max-width: 998px) {
-  .feedback h2, .feedback p, .feedback a {
+  .feedback h2, .feedback p, .feedback a, .survey h2, .survey p, .survey a {
     text-align: center;
     padding: 0 50px;
-  }
-  .feedback p {
-    margin-top: 2rem;
   }
 }
