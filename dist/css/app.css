@@ -27,7 +27,8 @@ h1, h2, p {
   border-radius: 6px;
   position: relative;
   border: 1px solid #2c4792;
-  color: #922c2c;
+  color: #2c4792;
+  font-weight: 500;
 }
 .btn img {
   position: absolute;
