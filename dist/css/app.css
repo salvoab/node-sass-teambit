@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap);
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +6,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #58402c;
 }
 
@@ -13,6 +14,10 @@ body {
 a {
   text-decoration: none;
   color: #58402c;
+}
+
+h1, h2, p {
+  line-height: 40px;
 }
 
 /* Buttons */
@@ -362,6 +367,12 @@ a {
   padding: 1rem 0;
 }
 
+.big-paragraph {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 2.5rem;
+}
+
 nav {
   width: 100%;
   display: flex;
@@ -394,7 +405,7 @@ nav .navbar-right .hamburger-box {
   margin: 14px 0;
 }
 .header-text .buttons-wrapper {
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 24px;
 }
 .header-text .buttons-wrapper span {
@@ -428,4 +439,27 @@ nav .navbar-right .hamburger-box {
 
 .problems .container {
   border-bottom: 2px solid #58402c;
+}
+
+.feedback img {
+  width: 100%;
+}
+.feedback img, .feedback h2 {
+  padding-top: 40px;
+}
+.feedback p {
+  margin-top: 9rem;
+}
+.feedback a {
+  color: #2c4792;
+}
+
+@media screen and (max-width: 998px) {
+  .feedback h2, .feedback p, .feedback a {
+    text-align: center;
+    padding: 0 50px;
+  }
+  .feedback p {
+    margin-top: 2rem;
+  }
 }

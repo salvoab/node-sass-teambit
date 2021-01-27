@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: $primary_color;
 }
 
@@ -13,6 +13,10 @@ body{
 a{
     text-decoration: none;
     color: $primary_color;
+}
+
+h1, h2, p{
+    line-height: $line_height;
 }
 
 /* Buttons */

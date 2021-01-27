@@ -1,7 +1,17 @@
+@mixin big_p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 2.5rem;
+}
+
 .my-2{
     margin: 2rem 0;
 }
 
 .py-1{
     padding: 1rem 0;
+}
+
+.big-paragraph{
+    @include big_p;
 }

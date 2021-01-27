@@ -28,3 +28,31 @@
         border-bottom: 2px solid $primary_color;
     }
 }
+
+.feedback{
+    img{
+        width: 100%;
+    }
+    img, h2{
+        padding-top: 40px;
+    }
+
+    p{
+        margin-top: 9rem;
+    }
+    a{
+        color: $btn_color;
+    }
+}
+
+@media screen and (max-width: 998px){
+    .feedback{
+        h2, p, a{
+            text-align: center;
+            padding: 0 50px;
+        }
+        p{
+            margin-top: 2rem;
+        }
+    }
+}
