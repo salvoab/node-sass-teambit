@@ -35,7 +35,7 @@ h1, h2, p{
 
 .btn{
     @include button;
-    border: 1px solid $btn_color;
+    border: 1px solid $blue;
     color: $btn_color;
 }
 
