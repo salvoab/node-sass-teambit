@@ -1,0 +1,19 @@
+footer{
+    .teambit-footer{
+        display: flex;
+        img{
+            align-self: flex-start;
+        }
+        p{
+            margin-top: -8px;
+            padding: 0 10px;
+            font-size: 1.3rem;
+
+            span{
+                font-weight: 700;
+                color: $btn_color;
+            }
+        }
+    }
+
+}

@@ -511,3 +511,18 @@ nav .navbar-right .hamburger-box {
     width: 95%;
   }
 }
+footer .teambit-footer {
+  display: flex;
+}
+footer .teambit-footer img {
+  align-self: flex-start;
+}
+footer .teambit-footer p {
+  margin-top: -8px;
+  padding: 0 10px;
+  font-size: 1.3rem;
+}
+footer .teambit-footer p span {
+  font-weight: 700;
+  color: #2c4792;
+}
